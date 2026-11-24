@@ -1,0 +1,27 @@
+/* Identidade visual e tokens do portfólio */
+:root {
+  color-scheme: dark;
+  --color-background: #141414;
+  --color-surface: #1c1c1c;
+  --color-surface-low: #181818;
+  --color-surface-high: #222222;
+  --color-surface-highest: #282828;
+  --color-surface-lowest: #111111;
+  --color-primary: #f5a524;
+  --color-secondary: #ecbf86;
+  --color-text-primary: #ededed;
+  --color-text-secondary: #a3a3a3;
+  --color-text-muted: #737373;
+  --color-border: #2a2a2a;
+  --color-border-interactive: #3e3e3e;
+  --font-sans: "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  --container-width: 1200px;
+  --gutter: 24px;
+  --gutter-mobile: 16px;
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 40px;
+}

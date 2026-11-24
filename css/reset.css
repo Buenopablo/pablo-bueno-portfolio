@@ -1,0 +1,39 @@
+/* Reset e normalização */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  min-width: 320px;
+  overscroll-behavior: none;
+}
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+img,
+svg {
+  max-width: 100%;
+}
+article {
+  margin: 0;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+::selection {
+  background: var(--color-primary);
+  color: var(--color-background);
+}

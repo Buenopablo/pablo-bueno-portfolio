@@ -1,0 +1,226 @@
+/* Breakpoints equivalentes aos usados no layout original: sm 640px, md 768px, lg 1024px. */
+@media (min-width: 1024px) {
+  .hero__grid {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+  }
+}
+@media (min-width: 1024px) {
+  .about__grid-03 {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+  }
+
+  .about__stack-09 {
+    grid-column: span 7 / span 7;
+  }
+
+  .about__stack-11 {
+    grid-column: span 5 / span 5;
+  }
+}
+@media (min-width: 640px) {
+  .about__grid-04 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (min-width: 768px) {
+  .projects__stack-13 {
+    flex-direction: row;
+    align-items: flex-end;
+  }
+}
+@media (min-width: 768px) {
+  .projects__grid-05 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (min-width: 640px) {
+  .experience__stack-16 {
+    padding-left: 32px;
+  }
+}
+@media (min-width: 640px) {
+  .experience__element-11 {
+    left: 12px;
+  }
+}
+@media (min-width: 640px) {
+  .experience__element-12 {
+    left: -32px;
+  }
+}
+@media (min-width: 640px) {
+  .cv-modal__stack-19 {
+    align-items: center;
+  }
+}
+@media (min-width: 640px) {
+  .experience__stack-19 {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+@media (min-width: 640px) {
+  .experience__element-13 {
+    left: -32px;
+  }
+}
+@media (min-width: 640px) {
+  .experience__stack-20 {
+    align-items: stretch;
+  }
+}
+@media (min-width: 640px) {
+  .experience__card-09 {
+    align-self: center;
+  }
+}
+
+@media (min-width: 640px) {
+  .experience__stack-20 .experience__card-09 {
+    align-self: flex-start;
+  }
+}
+@media (min-width: 640px) {
+  .cv-modal__row-37 {
+    padding: 32px;
+  }
+}
+@media (min-width: 640px) {
+  .cv-modal__stack-26 {
+    padding: 40px;
+  }
+}
+@media (min-width: 640px) {
+  .cv-modal__stack-27 {
+    align-items: flex-start;
+  }
+}
+@media (min-width: 640px) {
+  .cv-modal__stack-28 {
+    flex-direction: column;
+  }
+}
+@media (min-width: 640px) {
+  .cv-modal__grid-06 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (min-width: 640px) {
+  .cv-modal__stack-35 {
+    align-items: center;
+  }
+}
+@media (min-width: 640px) {
+  .cv-modal__label-28 {
+    display: flex;
+  }
+}
+@media (min-width: 640px) {
+  .cv-modal__row-43 {
+    width: auto;
+  }
+}
+@media (max-width: 639px) {
+  :root {
+    --gutter: var(--gutter-mobile);
+  }
+  .cv-modal__backdrop {
+    align-items: flex-start;
+    overflow-y: auto;
+  }
+  .hero__heading {
+    font-size: clamp(30px, 9vw, 48px);
+    line-height: 1.15;
+  }
+}
+@media (max-width: 767px) {
+  html {
+    scroll-padding-top: 72px;
+  }
+  main {
+    padding-top: 64px;
+  }
+}
+@media (max-width: 480px) {
+  body {
+    overflow-x: hidden;
+  }
+  .cv-modal__panel {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .site-header__navigation {
+    display: flex;
+  }
+}
+@media (max-width: 639px) {
+  .site-header__inner {
+    padding-inline: var(--gutter-mobile);
+  }
+  .site-header__group:first-child .site-header__cv-button {
+    display: none;
+  }
+  .cv-modal__panel {
+    max-height: none;
+    min-height: calc(100vh - 24px);
+  }
+}
+@media (min-width: 1024px) {
+  .hero__stack-03 {
+    grid-column: span 7 / span 7;
+  }
+  .hero__element-06 {
+    grid-column: span 5 / span 5;
+  }
+}
+
+/* Layout corrections for converted grid and flex rules. */
+.about__stack-09,
+.about__stack-11,
+.projects__grid-05,
+.projects__stack-14,
+.experience__stack-16,
+.experience__stack-17,
+.experience__stack-18,
+.experience__stack-19 {
+  min-width: 0;
+}
+
+.about__stack-09 {
+  overflow-wrap: normal;
+  word-break: normal;
+}
+
+.about__button-06 {
+  display: inline-flex;
+  justify-content: flex-start;
+  gap: 6px;
+  flex: 0 0 auto;
+  white-space: nowrap;
+}
+
+.projects__grid-05 {
+  grid-auto-rows: 1fr;
+}
+
+.projects__stack-14 {
+  height: 100%;
+}
+
+.experience__row-07 {
+  min-width: 0;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 640px) {
+  .experience__stack-19 > :first-child {
+    min-width: 0;
+  }
+
+  .experience__card-06,
+  .experience__card-08 {
+    flex: 0 0 auto;
+    margin-left: 16px;
+  }
+}
